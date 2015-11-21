@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnDownloadResource1.Text" xml:space="preserve">
+    <value>Download Resume</value>
+  </data>
+  <data name="btnDownloadResource1.ToolTip" xml:space="preserve">
+    <value>Download resume in Word format</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Tools&lt;/strong&gt;: Hands-on Experience in C#, ASP.NET 1.x/2.0, ADO.NET, XML, COM+, Web Service, SOAP, MS Reporting Services, Crystal Reports, MS Visual Studio 2003/2005, MS Source Safe 2000/2005, Source Gear, SQL Server 2000/2005, Core Java, Java Swing Package, Java Applet, CSS</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Methodologies&lt;/strong&gt;: In-depth understanding of Object-Oriented Analysis and Design Pattern (OOP), Multi-tiers Objects design, Software Development Life-cycle (SDLC), Model-View-Controller Design (MVC)</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Platforms&lt;/strong&gt;: Proficiency in operating systems of Windows 2000/2003 Server &amp; Advanced Server,  .Net Framework 1.x/2.0, IIS 5.1/6.0, Windows XP, Linux, UNIX, Windows 95/98/NT, DOS and AS/</value>
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Networks&lt;/strong&gt;: LAN and WAN technology, TCP/IP architecture, OSI architecture, IP Address, DHCP, HTTP protocol, SMTP, Spanning Tree, and data and computer communication</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Languages&lt;/strong&gt;: C#, Java, C/C++, SQL, XML, Visual Basic, JavaScript, DHTML, HTML, PCL, Eiffel, VBScript, and etc</value>
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Database&lt;/strong&gt;: MS SQL Server 2000/2005, IBM DB2, MS Access 2000/2003, Jbase, Oracle</value>
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Bachelor of Science specialized in Computer
+            Science&lt;/strong&gt;</value>
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Honors&lt;/strong&gt;: Recipient of Canadian Millennium Scholarship</value>
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Diploma of Computer Programming&lt;/strong&gt;</value>
+  </data>
+  <data name="LabelResource1.Text" xml:space="preserve">
+    <value>MICHAEL KONG</value>
+  </data>
+  <data name="LabelResource10.Text" xml:space="preserve">
+    <value>Bachelor of Science specialized in Computer Science</value>
+  </data>
+  <data name="LabelResource11.Text" xml:space="preserve">
+    <value>A flexible, energetic and diligent team player with strong problem solving and system tuning skill</value>
+  </data>
+  <data name="LabelResource12.Text" xml:space="preserve">
+    <value>A quick-learner with excellent communication skills</value>
+  </data>
+  <data name="LabelResource13.Text" xml:space="preserve">
+    <value>WORK EXPERIENCE</value>
+  </data>
+  <data name="LabelResource14.Text" xml:space="preserve">
+    <value>2006.12 ~ present</value>
+  </data>
+  <data name="LabelResource15.Text" xml:space="preserve">
+    <value>Senior .NET Software Engineer</value>
+  </data>
+  <data name="LabelResource16.Text" xml:space="preserve">
+    <value>Adapted the latest ASP.Net 2.0 &amp; ADO.Net 2.0 technologies, such as Master Page, Grid View, Menu, Generic, Batch Update and Object data source, to customize interface for multiple lenders, including Bank of America, Bank of West, KeyBank, Wells Fargo, Medallion, GE Financial and Thor.</value>
+  </data>
+  <data name="LabelResource17.Text" xml:space="preserve">
+    <value>Mainly responsible for implementing and maintaining the backend XML communication with both lenders and dealers using HTTPs request. De-serialized incoming XML stream into specified object and serialized acknowledge object into XML response stream.</value>
+  </data>
+  <data name="LabelResource18.Text" xml:space="preserve">
+    <value>Mainly responsible for maintaining a consistent n-tier architectural structure across the organization’s web applications. Ensured a consistent look and feel across the company’s web applications, Intranets, and extranets by developing and promoting a uniform branding strategy.</value>
+  </data>
+  <data name="LabelResource19.Text" xml:space="preserve">
+    <value>Responsible for implementing a tool to pull consumer credit bureau for credit check by consuming a 3rd party web service.</value>
+  </data>
+  <data name="LabelResource2.Text" xml:space="preserve">
+    <value>Last updated on </value>
+  </data>
+  <data name="LabelResource20.Text" xml:space="preserve">
+    <value>Responsible for creating e-Commerce application using ASP.NET Responsible for creating user-friendly interface, and choosing web server controls properly to ensure data communication smoothly between users and system.</value>
+  </data>
+  <data name="LabelResource21.Text" xml:space="preserve">
+    <value>ASP.NET Web Developer</value>
+  </data>
+  <data name="LabelResource22.Text" xml:space="preserve">
+    <value>Mainly responsible for Designing and Developing online, transaction based e-commerce solutions for B2B and B2C systems, using Microsoft .NET technology. Such as online catalogues, shopping cart, administration, distribution modules and est.</value>
+  </data>
+  <data name="LabelResource23.Text" xml:space="preserve">
+    <value>Mainly responsible for implementing and maintaining multiple projects, including President Choice Finance, Siemens and General Motors, Campbell’s Soup, Pepsi-QTG, WorkBrain, The Source and Kraft.</value>
+  </data>
+  <data name="LabelResource24.Text" xml:space="preserve">
+    <value>Mainly Responsible for database design in SQL 2000 Server, implemented complex stored procedures, queries, views, triggers and constrains, and invoked transaction if applicable.</value>
+  </data>
+  <data name="LabelResource25.Text" xml:space="preserve">
+    <value>Responsible for customizing Form and Windows authentication and authorization module to set up role-base application security and pages security, and building dynamic menus and links accord to the specific user roles or access level.</value>
+  </data>
+  <data name="LabelResource26.Text" xml:space="preserve">
+    <value>SKILLS SETS</value>
+  </data>
+  <data name="LabelResource27.Text" xml:space="preserve">
+    <value>Followed a full of web development procedures, including planning, user requirement collection, object design and analysis, testing, implementation and maintenance.</value>
+  </data>
+  <data name="LabelResource28.Text" xml:space="preserve">
+    <value>EDUCATION BACKGROUND</value>
+  </data>
+  <data name="LabelResource29.Text" xml:space="preserve">
+    <value>CERTIFICATE</value>
+  </data>
+  <data name="LabelResource3.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="LabelResource30.Text" xml:space="preserve">
+    <value>Microsoft Certified Solution Developer .NET Certificate in C#</value>
+  </data>
+  <data name="LabelResource31.Text" xml:space="preserve">
+    <value>Microsoft Certified Application Developer .NET Certificate in C#</value>
+  </data>
+  <data name="LabelResource32.Text" xml:space="preserve">
+    <value>INTEREST</value>
+  </data>
+  <data name="LabelResource33.Text" xml:space="preserve">
+    <value>Passionate for most of sports activities, especially basketball, soccer and badminton</value>
+  </data>
+  <data name="LabelResource34.Text" xml:space="preserve">
+    <value>Enjoy reading, music and movies</value>
+  </data>
+  <data name="LabelResource4.Text" xml:space="preserve">
+    <value>Blog:</value>
+  </data>
+  <data name="LabelResource5.Text" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="LabelResource6.Text" xml:space="preserve">
+    <value>OBJECTIVE</value>
+  </data>
+  <data name="LabelResource7.Text" xml:space="preserve">
+    <value>To become a Senior Microsoft .NET Solution Developer and Specialist in C#</value>
+  </data>
+  <data name="LabelResource8.Text" xml:space="preserve">
+    <value>SUMMARY</value>
+  </data>
+  <data name="LabelResource9.Text" xml:space="preserve">
+    <value>Certified C# MCSD/MCAD with 5 years experience in IT field, including 3 years solid experience on .NET Framework, ASP.NET, ADO.NET and C#</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>ASPNET C# Senior Web Developer Software Engineer Resume</value>
+  </data>
+</root>

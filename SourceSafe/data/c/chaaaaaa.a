@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<configuration>
+	<appSettings>
+		<add key="applicationPath" value="~/Blog/"/>
+		<add key="LinkCategory" value="BLOG"/>
+	</appSettings>
+	<system.web>
+		<pages styleSheetTheme="Blog"  masterPageFile="~/Blog/Blog.Master">
+        
+    </pages>
+	</system.web>
+	<location path="Member">
+		<system.web>
+			<authorization>
+				<deny users="?"/>
+			</authorization>
+		</system.web>
+	</location>
+</configuration>

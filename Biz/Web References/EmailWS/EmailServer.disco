@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://www.micnets.com/WebService/EmailServer.asmx?wsdl" docRef="http://www.micnets.com/WebService/EmailServer.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://www.micnets.com/WebService/EmailServer.asmx" xmlns:q1="http://MicNets" binding="q1:EmailServerSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://www.micnets.com/WebService/EmailServer.asmx" xmlns:q2="http://MicNets" binding="q2:EmailServerSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

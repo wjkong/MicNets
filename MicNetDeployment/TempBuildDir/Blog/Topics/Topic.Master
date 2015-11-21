@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Topic.master.cs" Inherits="MicNets.Web.Blog.Topics.Topic" MasterPageFile="~/Blog/Blog.Master"   %>
+<%@ Register Src="../../Controls/ctlTopicHeader.ascx" TagName="ctlTopicHeader" TagPrefix="uc2" %>
+<%@ Register Src="../../Controls/ctlComment.ascx" TagName="ctlComment" TagPrefix="uc1" %>
+<%@ Register Src="../../Controls/ctlToolBar.ascx" TagName="ctlToolBar" TagPrefix="uc1" %>
+
+<asp:Content id="Content1" ContentPlaceholderID="content" runat="server">
+    <fieldset>
+    <table cellpadding="5" cellspacing="5" style="width: 100%">
+        <tr>
+            <td>
+          <uc1:ctlToolBar ID="CtlToolBar1" runat="server" /> 
+            </td>
+            <td align="right" rowspan="2">
+                <uc2:ctlTopicHeader ID="ctlTopicHeader1" runat="server" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <asp:Label ID="lblTopicTitle" runat="server" ForeColor="#FF6699" 
+                    Font-Bold="True" Font-Size="16px"></asp:Label>
+            </td>
+        </tr>
+    </table>
+    <div class="row" style="padding-left:10px">
+          <asp:ContentPlaceHolder ID="topicContent" runat="server" />
+     </div>
+     <div class="row" id="printExclusive"><asp:ScriptManager ID="ScriptManager1" runat="server">
+</asp:ScriptManager>
+        <uc1:ctlComment ID="CtlComment1" runat="server" />
+    </div>
+</fieldset>
+<asp:HiddenField ID="hidTopicID" runat="server" />
+</asp:Content>

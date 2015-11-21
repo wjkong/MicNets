@@ -1,0 +1,15 @@
+<asp:TextBox runat="server" CssClass="TextBox"></asp:TextBox>
+<asp:TextBox runat="server" CssClass="TextBoxAR" SkinID="TextBoxAR"></asp:TextBox>
+<asp:TextBox runat="server" CssClass="TextBoxReadOnly" SkinID="TextBoxReadOnly"></asp:TextBox>
+
+
+ <asp:Calendar runat="server" ToolTip="My Canlendar" BackColor="White" BorderColor="#999999" CellPadding="4" DayNameFormat="Shortest" Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" Height="180px" Width="200px">
+    <SelectedDayStyle BackColor="#666666" Font-Bold="True" ForeColor="White" />
+    <SelectorStyle BackColor="#CCCCCC" />
+    <WeekendDayStyle BackColor="#FFFFCC" />
+    <TodayDayStyle BackColor="#CCCCCC" ForeColor="Black" />
+    <OtherMonthDayStyle ForeColor="#808080" />
+    <NextPrevStyle VerticalAlign="Bottom" />
+    <DayHeaderStyle BackColor="#CCCCCC" Font-Bold="True" Font-Size="7pt" />
+    <TitleStyle BackColor="#999999" BorderColor="Black" Font-Bold="True" />
+</asp:Calendar>

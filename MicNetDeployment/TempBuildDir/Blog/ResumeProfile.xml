@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/Image/PremiumMemberZone/Thumbnail/2005-10-22 P1.jpg</ImageUrl>
+		<NavigateUrl>~/Blog/Album.aspx</NavigateUrl>
+		<AlternateText>Click here to see more Michael's picture</AlternateText>
+		<Impressions>10</Impressions>
+		<Keywood></Keywood>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Image/PremiumMemberZone/Thumbnail/1214.jpg</ImageUrl>
+		<NavigateUrl>~/Blog/Album.aspx</NavigateUrl>
+		<AlternateText>Click here to see more Michael's picture</AlternateText>
+		<Impressions>10</Impressions>
+		<Keywood></Keywood>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Image/PremiumMemberZone/Thumbnail/2005-06-18 P1.jpg</ImageUrl>
+		<NavigateUrl>~/Blog/Album.aspx</NavigateUrl>
+		<AlternateText>Click here to see more Michael's picture</AlternateText>
+		<Impressions>10</Impressions>
+		<Keywood></Keywood>
+	</Ad>
+</Advertisements>
+
+

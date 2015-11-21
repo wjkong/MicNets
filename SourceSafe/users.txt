@@ -1,0 +1,5 @@
+Admin = users\admin\ss.ini
+Guest = users\guest\ss.ini
+Wjkong = users\wjkong\ss.ini
+Michael = users\michael\ss.ini
+Janet = users\janet\ss.ini

@@ -1,0 +1,157 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Blog.master.cs" Inherits="MicNets.Web.Blog.Master" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <meta name="y_key" content="db22bcc80e7d101c" />
+    <link rel="shortcut icon" href="http://www.micnets.com/Image/blog.ico" />
+    <script type="text/javascript" language="javascript">
+        var asyncArguments = null;
+        var asyncCallback = null;
+        var timeInMillSecond = 1800;
+
+        function ShowPopup(result, callback) 
+        {
+            asyncArguments = arguments;
+            asyncCallback = callback;
+            window.setTimeout("AsynchronousCall();", timeInMillSecond);
+        }
+
+        function AsynchronousCall()
+        {
+            asyncCallback(asyncArguments[0]);
+        } 
+
+        function ShowPopupCallback(result)
+        {
+            alert(result);
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table cellpadding=0 cellspacing=0 style="width:100%">
+        <thead>
+            <tr>
+                <th id="header" colspan=3>
+                    <table style="width:100%">
+                        <tr>
+                            <td> <asp:HyperLink NavigateUrl="~/Blog/Default.aspx" Text="Michael Blog" 
+                                runat="server" CssClass="logoMyBlog" ToolTip="Michael's Blog Home Page" 
+                                ID="hypLogo" meta:resourcekey="hypLogoResource1"></asp:HyperLink>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr style="height:100%">
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                             <asp:Menu ID="menuTop" runat="server" Orientation="Horizontal" 
+                                                MaximumDynamicDisplayLevels="2" StaticEnableDefaultPopOutImage="False" 
+                                                DynamicVerticalOffset="1" EnableViewState="False" 
+                                                meta:resourcekey="menuTopResource1">
+                                                <StaticMenuItemStyle CssClass="topMenuItem" />
+                                                <DynamicHoverStyle CssClass="subMenuItemHover" />
+                                                <DynamicMenuItemStyle CssClass="subMenuItem" />
+                                            </asp:Menu>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td style="vertical-align:middle"><asp:LinkButton ID="btnEnglish" runat="server" onclick="btnEnglish_Click" 
+                                Visible="False" meta:resourcekey="btnEnglishResource1" 
+                                CausesValidation="False"></asp:LinkButton>&nbsp;&nbsp;<asp:LinkButton
+                                ID="btnFrench" runat="server" onclick="btnFrench_Click" 
+                                meta:resourcekey="btnFrenchResource1" CausesValidation="False"></asp:LinkButton>&nbsp;&nbsp;<asp:LinkButton 
+                                ID="btnChinese" runat="server" onclick="btnChinese_Click" 
+                                meta:resourcekey="btnChineseResource1" CausesValidation="False"></asp:LinkButton>
+                            </td>
+                            <td><asp:Image 
+                                ID="Image1" runat="server" ImageUrl="~/Image/ASPNET2.gif" 
+                                ToolTip="This site is powered by ASP.NET 2.0 " 
+                                meta:resourcekey="Image1Resource1" />
+                            </td>
+                        </tr>
+                    </table>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="leftAdCol">
+                     <div style="padding-bottom:5px; padding-left:5px; text-align:center">
+                        <asp:Localize ID="Localize1" runat="server" 
+                             meta:resourcekey="Localize1Resource1" Text="Your SUPPORT will be Appreciated!"></asp:Localize></div>
+                     <asp:ImageButton id="btnPayPalDonation" onclick="btnPayPalDonation_Click" 
+                    runat="server" ToolTip="Make a donation to support my blog" 
+                    ImageUrl="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" 
+                    CausesValidation="False" meta:resourcekey="btnPayPalDonationResource1"></asp:ImageButton>
+                    <br />
+                    <br />
+                    <!-- begin: pogads -->
+                    <script language="javascript" type="text/javascript" src="http://ads1.pogads.com/show_ad.php?zid=16601&amp;sz=120x600"></script>
+                    <a href="http://www.pogads.com/" title="Increase Web Traffic" id="pogads_site16601" class='ad_adv16601 ad_headline16601 ad_table16601' target='_blank'>Increase Web Traffic</a>
+                    <!-- end: pogads -->    
+                </td>
+                <td style="padding-top:10px; width:100%">
+                    <asp:contentplaceholder id="content" runat="server">
+                    </asp:contentplaceholder>
+                </td>
+                <td id="rightAdCol">
+                     <div class="row">
+                         <!-- begin: pogads -->
+                        <style type="text/css">
+                        .ad_headline16594 {font: bold 10pt arial; text-decoration: underline; color: #0066CC;}.ad_text16594 {font: normal 10pt arial; width: 210px; text-decoration: none; color: #000000;}.ad_table16594 {border: 0px solid; border-color: #FFFFFF; background: #FFFFFF;}
+                        .ad_adv16594 {border: 0px; font: normal 10pt arial;}
+                        </style>
+                        <script language="javascript" type="text/javascript" src="http://ads1.pogads.com/show_ad.php?zid=16594&amp;sz=120x600"></script>
+                        <a href="http://pogads.com" title="increase web traffic" id="pogads_site16594" class='ad_adv16594 ad_headline16594 ad_table16594' target='_blank'>increase web traffic</a>
+                        <!-- end: pogads -->
+                        <p>
+                       
+                        <a href="http://www.crystaltech.com/default.aspx?ref=www.micnets.com">
+                            <asp:Image id="imgCrystalTech" runat="server" 
+                                ImageUrl="~/Image/LC_AD_CrystalTech.gif" 
+                                ToolTip="This site is hosted by Crystal Tech" 
+                                meta:resourcekey="imgCrystalTechResource1"></asp:Image></a>
+                     </p>
+                    </div>    
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="3" id="footer">
+                <asp:menu id="menub" runat="server" cssclass="menuFooter" 
+                    orientation="Horizontal" maximumdynamicdisplaylevels="0" skiplinktext="" 
+                    staticdisplaylevels="2" ToolTip="Click here to visit my blog" 
+                    meta:resourcekey="menubResource1">
+                    <Items>
+                        <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/Blog/Default.aspx" 
+                            meta:resourcekey="MenuItemResource1"></asp:MenuItem>
+                        <asp:MenuItem Text="RESUME" Value="RESUME" NavigateUrl="~/Blog/Resume.aspx" 
+                            meta:resourcekey="MenuItemResource2"></asp:MenuItem>
+                        <asp:MenuItem Text="ALBUMS" Value="ALBUMS" NavigateUrl="~/Blog/Album.aspx" 
+                            meta:resourcekey="MenuItemResource3"></asp:MenuItem>
+                        <asp:MenuItem Text=".NET ZONE" Value=".NET ZONE" 
+                            NavigateUrl="~/Blog/Net-Zone.aspx" meta:resourcekey="MenuItemResource4"></asp:MenuItem>
+                        <asp:MenuItem Text="TOOLS" Value="TOOLS" NavigateUrl="~/Blog/Tools.aspx" 
+                            meta:resourcekey="MenuItemResource5"></asp:MenuItem>
+                        <asp:MenuItem Text="MEMBERS" Value="MEMBERS" NavigateUrl="~/Blog/Login.aspx" 
+                            meta:resourcekey="MenuItemResource6"></asp:MenuItem>
+                        <asp:MenuItem Text="SITE MAP" Value="SITE MAP" 
+                            NavigateUrl="~/Blog/SiteMap.aspx" meta:resourcekey="MenuItemResource7"></asp:MenuItem>
+                    </Items>
+                </asp:menu>
+                Copyright &copy; 2008 MicNets.
+            </td>
+        </tr>
+        </tfoot>
+   </table>               
+    
+    <asp:HiddenField ID="hidScreenWidth" runat="server" />
+   </form>
+</body>
+</html>
+

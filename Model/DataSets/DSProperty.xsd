@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSProperty" targetNamespace="http://tempuri.org/DSProperty.xsd" xmlns:mstns="http://tempuri.org/DSProperty.xsd" xmlns="http://tempuri.org/DSProperty.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSProperty" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSProperty" msprop:Generator_UserDSName="DSProperty" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTProperty" msprop:Generator_UserTableName="DTProperty" msprop:Generator_RowDeletedName="DTPropertyRowDeleted" msprop:Generator_TableClassName="DTPropertyDataTable" msprop:Generator_RowChangedName="DTPropertyRowChanged" msprop:Generator_RowClassName="DTPropertyRow" msprop:Generator_RowChangingName="DTPropertyRowChanging" msprop:Generator_RowEvArgName="DTPropertyRowChangeEvent" msprop:Generator_RowEvHandlerName="DTPropertyRowChangeEventHandler" msprop:Generator_TablePropName="DTProperty" msprop:Generator_TableVarName="tableDTProperty" msprop:Generator_RowDeletingName="DTPropertyRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SKU" msprop:Generator_UserColumnName="SKU" msprop:Generator_ColumnPropNameInRow="SKU" msprop:Generator_ColumnVarNameInTable="columnSKU" msprop:Generator_ColumnPropNameInTable="SKUColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PricePurchased" msprop:Generator_UserColumnName="PricePurchased" msprop:Generator_ColumnPropNameInRow="PricePurchased" msprop:Generator_ColumnVarNameInTable="columnPricePurchased" msprop:Generator_ColumnPropNameInTable="PricePurchasedColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DatePurchased" msprop:Generator_UserColumnName="DatePurchased" msprop:Generator_ColumnPropNameInRow="DatePurchased" msprop:Generator_ColumnVarNameInTable="columnDatePurchased" msprop:Generator_ColumnPropNameInTable="DatePurchasedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PlacePurchased" msprop:Generator_UserColumnName="PlacePurchased" msprop:Generator_ColumnPropNameInRow="PlacePurchased" msprop:Generator_ColumnVarNameInTable="columnPlacePurchased" msprop:Generator_ColumnPropNameInTable="PlacePurchasedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HasReceipt" msprop:Generator_UserColumnName="HasReceipt" msprop:Generator_ColumnPropNameInRow="HasReceipt" msprop:Generator_ColumnVarNameInTable="columnHasReceipt" msprop:Generator_ColumnPropNameInTable="HasReceiptColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

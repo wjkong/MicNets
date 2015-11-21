@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdProfileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDownloadResource1.Text" xml:space="preserve">
+    <value>下载简历</value>
+  </data>
+  <data name="btnDownloadResource1.ToolTip" xml:space="preserve">
+    <value>下载简历Word格式</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;工具&lt;/strong&gt;: 亲身体验在 C#, ASP.NET 1.x/2.0, ADO.NET, XML, COM+, Web Service, SOAP, MS Reporting Services, Crystal Reports, MS Visual Studio 2003/2005, MS Source Safe 2000/2005, Source Gear, SQL Server 2000/2005, Core Java, Java Swing Package, Java Applet, CSS</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;方法&lt;/strong&gt;: 深入了解 Object-Oriented Analysis and Design Pattern (OOP), Multi-tiers Objects design, Software Development Life-cycle (SDLC), Model-View-Controller Design (MVC)</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;平台&lt;/strong&gt;: 精通操作系统 Windows 2000/2003 Server &amp; Advanced Server,  .Net Framework 1.x/2.0, IIS 5.1/6.0, Windows XP, Linux, UNIX, Windows 95/98/NT, DOS and AS/</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;网络&lt;/strong&gt;: LAN and WAN technology, TCP/IP architecture, OSI architecture, IP Address, DHCP, HTTP protocol, SMTP, Spanning Tree, and data and computer communication</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;编码语言&lt;/strong&gt;: C#, Java, C/C++, SQL, XML, Visual Basic, JavaScript, DHTML, HTML, PCL, Eiffel, VBScript, and etc</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;数据库&lt;/strong&gt;: MS SQL Server 2000/2005, IBM DB2, MS Access 2000/2003, Jbase, Oracle</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;计算机学士学位&lt;/strong&gt;</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;荣誉&lt;/strong&gt;:曾获加拿大千年奖学金</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>&lt;strong&gt;计算机程序设计文凭&lt;/strong&gt;</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource1.Text" xml:space="preserve">
+    <value>孔卫军</value>
+  </data>
+  <data name="LabelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource10.Text" xml:space="preserve">
+    <value>计算机学士学位</value>
+  </data>
+  <data name="LabelResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource11.Text" xml:space="preserve">
+    <value>一个灵活的，充满活力，勤奋球员的强烈解决问题和系统调整技巧</value>
+  </data>
+  <data name="LabelResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource12.Text" xml:space="preserve">
+    <value>快速学习能力优秀的沟通技巧</value>
+  </data>
+  <data name="LabelResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource13.Text" xml:space="preserve">
+    <value>工作经验</value>
+  </data>
+  <data name="LabelResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource14.Text" xml:space="preserve">
+    <value>2006.12 ~ 现在</value>
+  </data>
+  <data name="LabelResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource15.Text" xml:space="preserve">
+    <value>高级.NET软件工程师</value>
+  </data>
+  <data name="LabelResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource16.Text" xml:space="preserve">
+    <value>适应最新的ADO.Net ASP.Net 2.0 ＆ 2.0技术，如主页，网格视图，菜单，通用，批量更新和对象的数据源，定制界面多放款，包括美国银行，交通银行西， KeyBank ，富国银行，奖章，通用金融和Thor 。</value>
+  </data>
+  <data name="LabelResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource17.Text" xml:space="preserve">
+    <value>主要负责执行和维护后端的XML通信与银行和经销商使用HTTPS请求。德系列化传入XML流到指定的目标和系列化承认对象到XML响应流。</value>
+  </data>
+  <data name="LabelResource17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource18.Text" xml:space="preserve">
+    <value>主要负责维护一个一致的n层建筑结构在整个组织内的Web应用程序。确保了一贯的外观设计风格，该公司的网络应用，内联网和外联网的发展和促进统一的品牌战略。</value>
+  </data>
+  <data name="LabelResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource19.Text" xml:space="preserve">
+    <value>负责执行的工具，拉动消费信贷信用检查局所消耗的第三方Web服务</value>
+  </data>
+  <data name="LabelResource19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource2.Text" xml:space="preserve">
+    <value>最后更新日期</value>
+  </data>
+  <data name="LabelResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource20.Text" xml:space="preserve">
+    <value>负责建立电子商务应用程序使用ASP.NET负责建立用户友好的界面，并选择适当的Web服务器的控制，以确保顺利之间的数据通信用户和系统。</value>
+  </data>
+  <data name="LabelResource20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource21.Text" xml:space="preserve">
+    <value>ASP.NET 网页开发</value>
+  </data>
+  <data name="LabelResource21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource22.Text" xml:space="preserve">
+    <value>主要负责设计与开发网上交易的电子商务解决方案的B2B和B2C系统，使用微软。 NET技术。如在线产品目录，购物车，管理，分配单元和站</value>
+  </data>
+  <data name="LabelResource22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource23.Text" xml:space="preserve">
+    <value>主要负责实施和维护多个项目，其中包括总统选择金融，西门子和通用汽车公司，金宝汤，百事可乐QTG ， WorkBrain来源和卡夫。</value>
+  </data>
+  <data name="LabelResource23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource24.Text" xml:space="preserve">
+    <value>主要负责数据库的设计在SQL 2000 Server中，执行复杂的存储过程，查询，视图，触发器和约束，并援引交易如适用。</value>
+  </data>
+  <data name="LabelResource24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource25.Text" xml:space="preserve">
+    <value>负责定制表格和Windows身份验证和授权模块建立角色的基础应用的安全性和网页的安全，并建立动态菜单和联系协议的具体用户角色或访问级别。</value>
+  </data>
+  <data name="LabelResource25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource26.Text" xml:space="preserve">
+    <value>基本技巧</value>
+  </data>
+  <data name="LabelResource26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource27.Text" xml:space="preserve">
+    <value>其次充分的Web开发程序，包括规划，用户需求的收集，对象设计与分析，测试，实施和维护</value>
+  </data>
+  <data name="LabelResource27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource28.Text" xml:space="preserve">
+    <value>教育背景</value>
+  </data>
+  <data name="LabelResource28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource29.Text" xml:space="preserve">
+    <value>结业证书</value>
+  </data>
+  <data name="LabelResource29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource3.Text" xml:space="preserve">
+    <value>电邮:</value>
+  </data>
+  <data name="LabelResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource30.Text" xml:space="preserve">
+    <value>微软认证解决方案开发 .NET C ＃证书</value>
+  </data>
+  <data name="LabelResource30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource31.Text" xml:space="preserve">
+    <value>微软认证应用程序开发 .NET C# 证书</value>
+  </data>
+  <data name="LabelResource31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource32.Text" xml:space="preserve">
+    <value>兴趣</value>
+  </data>
+  <data name="LabelResource32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource33.Text" xml:space="preserve">
+    <value>激情对大多数的体育活动，特别是篮球，足球和羽毛球</value>
+  </data>
+  <data name="LabelResource33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource34.Text" xml:space="preserve">
+    <value>喜欢读书，音乐和电影</value>
+  </data>
+  <data name="LabelResource34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource4.Text" xml:space="preserve">
+    <value>博客:</value>
+  </data>
+  <data name="LabelResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource5.Text" xml:space="preserve">
+    <value>地址:</value>
+  </data>
+  <data name="LabelResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource6.Text" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="LabelResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource7.Text" xml:space="preserve">
+    <value>要成为一名高级的Microsoft .NET C# 解决方案开发和专家</value>
+  </data>
+  <data name="LabelResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource8.Text" xml:space="preserve">
+    <value>总结</value>
+  </data>
+  <data name="LabelResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelResource9.Text" xml:space="preserve">
+    <value>MCSD认证/症与5年的从业经验在IT领域，其中包括3年扎实的经验。 NET框架， ASP.NET ， ADO.NET和C ＃</value>
+  </data>
+  <data name="LabelResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastUpdatedResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastUpdatedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>C ＃ ASP.NET 高级网络开发软件工程师简历</value>
+  </data>
+</root>
