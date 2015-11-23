@@ -1,6 +1,8 @@
-﻿namespace MicNets.Model.DataSets {
-    
-    
-    public partial class DSProperty {
+﻿namespace MicNets.Model.DataSets
+{
+
+
+    public partial class DSProperty
+    {
     }
 }
