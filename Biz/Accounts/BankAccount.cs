@@ -23,7 +23,6 @@ namespace MicNets.BizLogic.Accounts
         {
             return Balance - amount;
 
-            Computer myComputer = new Computer();
            
         }
 
